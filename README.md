@@ -49,7 +49,6 @@ _**Heaven’s Light is Our Guide**_
 ## INDEX:
 | Lab No. | Title | Link |
 | :---: | :---: | :---: |
-| 01 | Introduction of Basic Gates | [Lab 01](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab%2001.md) [Lab 01](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab_01%20(1).pdf)
-| 01 | Introduction of Basic Gates | **[Markdown](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab%2001.md)**  \|  **[PDF](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab%2001%20(1).pdf)** |
+| 01 | Introduction of Basic Gates | **[Markdown](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab%2001.md)**  \|  **[PDF](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab_01%20(1).pdf)** |
 
 </div> 
