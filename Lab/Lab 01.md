@@ -24,9 +24,6 @@ In this experiment, an OR gate will be constructed using only NOR gates. An OR g
 
 3. **Circuit Design:**
    - Connect the inputs A and B to the first NOR gate.
-     
-<img width="453" height="306" alt="Screenshot 2026-07-26 at 6 03 56 AM" src="https://github.com/user-attachments/assets/4ece9f54-e515-4bb8-85ef-0d3824a5b914" />
-   
    - Connect the output of the first NOR gate to both inputs of the second NOR gate to invert the output.
      
 <img width="681" height="321" alt="Screenshot 2026-07-26 at 6 04 27 AM" src="https://github.com/user-attachments/assets/e7810cbf-b2c5-41be-a158-82243cf64b42" />
@@ -38,7 +35,6 @@ In this experiment, an OR gate will be constructed using only NOR gates. An OR g
    
 <img width="633" height="241" alt="Screenshot 2026-07-26 at 6 04 57 AM" src="https://github.com/user-attachments/assets/1c8212ea-3df1-4fe8-8466-fe7e978fcb30" />
 
-
 <img width="650" height="239" alt="Screenshot 2026-07-26 at 6 05 18 AM" src="https://github.com/user-attachments/assets/1cbd7879-a448-45df-aa88-f22f5171d041" />
 
 
@@ -47,7 +43,7 @@ In this experiment, an OR gate was successfully constructed using only NOR gates
 
 ## **Task 2: Implementation of an OR Gate using NAND Gates**
 
-**Introduction::**\
+**Introduction:**\
 In this experiment, an OR gate is constructed using only NAND gates. NAND is a universal logic gate, meaning that it can be used to implement all other basic logic gates, including the OR gate.
 
 **Procedure:**
@@ -62,13 +58,14 @@ In this experiment, an OR gate is constructed using only NAND gates. NAND is a u
    |    1    |    0    |        1          |
    |    1    |    1    |        0          |
 
-2. **Implementing the OR Gate using NAND Gates:**
+2. **Implementing of the OR Gate using NAND Gates:**
    - To implement an OR gate using NAND gates, we can use the following logic:
    - OR(A, B) = NOT(NAND(NOT(A), NOT(B)))
    - This means that we can first use two NAND gates to invert the inputs A and B, and then use a third NAND gate to combine the inverted inputs.
 3. **Circuit Design:**
    - Connect the inputs A and B to the first two NAND gates to invert them.
    - Connect the outputs of the first two NAND gates to the inputs of the third NAND gate to get the final output.
+     
 <img width="625" height="317" alt="Screenshot 2026-07-26 at 6 13 32 AM" src="https://github.com/user-attachments/assets/0bcde91b-e9ef-4931-87cc-44e041b62ab8" />
 
 
@@ -77,10 +74,7 @@ In this experiment, an OR gate is constructed using only NAND gates. NAND is a u
    - Verify that the output matches the expected results of an OR gate.
 
 <img width="612" height="322" alt="Screenshot 2026-07-26 at 6 14 05 AM" src="https://github.com/user-attachments/assets/40eaee9e-2249-4717-9872-ddda5a8b2d1a" />
-   
 <img width="607" height="319" alt="Screenshot 2026-07-26 at 6 14 48 AM" src="https://github.com/user-attachments/assets/455252fd-ecb4-4adc-bafa-54785181468e" />
-
-
 
 **Conclusion:**
    In this experiment, an OR gate was successfully implemented using three NAND gates. The experiment demonstrated the practical application of De Morgan's theorem and verified that NAND gates can be used to construct other logic gates. This experiment also strengthened the understanding of universal gates and their significance in digital logic circuit design.
@@ -126,7 +120,7 @@ In this experiment, an AND gate is constructed using only NOR gates. An AND gate
 **Conclusion:**
 In this experiment, an AND gate was successfully implemented using three NOR gates. The experiment demonstrated how a universal gate can be used to construct other basic logic gates. It also provided a practical understanding of De Morgan's theorem and the importance of universal gates in digital logic circuit design.
 
-## **Experiment 4: Implementation of AND Gate using NAND Gates**
+## **Task 4: Implementation of AND Gate using NAND Gates**
 
 **Introduction:**\
 In this experiment, an AND gate is constructed using only NAND gates. Since NAND is a universal logic gate, it can be used to implement various other logic gates, including the AND gate.
@@ -322,13 +316,14 @@ In this experiment, a Binary-to-BCD converter is implemented using logic gates. 
 3. **Circuit Design:**
    - Connect the binary input bits (B₃, B₂, B₁, B₀) to the Binary to BCD converter circuit.
    - The circuit will produce the corresponding BCD output bits (D₄, D₃, D₂, D₁) based on the input binary number which will be displayed on the BCD to seven-segment display.
-   - 
+     
 <img width="633" height="347" alt="Screenshot 2026-07-26 at 6 46 48 AM" src="https://github.com/user-attachments/assets/df6ed3b4-3890-4235-ab0f-8778d0bcc257" />
 
    
 4. **Testing the Circuit:**
    - Apply different combinations of binary inputs (B₃, B₂, B₁, B₀) to the circuit and observe the BCD outputs (D₄, D₃, D₂, D₁).
    - Verify that the outputs match the expected results of the Binary to BCD conversion.
+   - 
 <img width="619" height="392" alt="Screenshot 2026-07-26 at 6 47 32 AM" src="https://github.com/user-attachments/assets/2f9a5920-8b0e-4d4d-86b6-d52de55905dd" />
    
 <img width="639" height="378" alt="Screenshot 2026-07-26 at 6 48 01 AM" src="https://github.com/user-attachments/assets/a89cbb85-9e66-477e-88cd-51af12afeba5" />
@@ -338,4 +333,4 @@ In this experiment, a Binary-to-BCD converter is implemented using logic gates. 
 In this experiment, a Binary-to-BCD converter was successfully implemented and tested. The circuit converted 4-bit binary numbers into their corresponding BCD representations, allowing the binary values to be displayed as decimal digits. This experiment provided a practical understanding of binary-to-BCD conversion and demonstrated its importance in digital systems such as digital displays, calculators, and other electronic devices that require decimal number representation.
 
 
-## <h1 align='center'>  End of Lab 1 Report  </h1>
+
