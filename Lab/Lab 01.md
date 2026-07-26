@@ -1,4 +1,4 @@
-## **Lab 1: Introduction Basic Gates **
+## **Lab 1: Introduction of Basic Gates **
 ## **Task 1: Implementation of OR Gate using NOR Gates**
 
 **Introduction:**\
@@ -169,11 +169,11 @@ In this experiment, an AND gate was successfully implemented using two NAND gate
 ## **Task 5: Implementation of NOT Gate using NOR Gates**
 
 
-**Description:**\
-In this experiment, we will implement a NOT gate using only NOR gates. The NOT gate is a fundamental digital logic gate that outputs the opposite value of its input. The NOR gate, being a universal gate, can be used to create a NOT gate as well.
+**Introduction:**\
+In this experiment, a NOT gate is implemented using only a NOR gate. A NOT gate, also known as an inverter, produces the complement of its input value. Since a NOR gate is a universal gate, it can be used to construct a NOT gate by connecting its inputs together.
 
 **Procedure:**
-1. **Understanding the NOT Gate:**
+1. **Study of the NOT Gate:**
    - A NOT gate outputs true (1) when its input is false (0) and outputs false (0) when its input is true (1). The truth table for a NOT gate is as follows:
 
    | Input A | Output (NOT A) |
@@ -186,21 +186,25 @@ In this experiment, we will implement a NOT gate using only NOR gates. The NOT g
    - NOT(A) = NOR(A, A)
    - This means that we can connect the input A to both inputs of a NOR gate to get the inverted output.
 
+
 3. **Circuit Design:**
    - Connect the input A to both inputs of the NOR gate.
-   ![alt text](image-16.png)
+
+  <img width="364" height="184" alt="Screenshot 2026-07-26 at 6 31 45 AM" src="https://github.com/user-attachments/assets/e7f46649-317c-4293-ae40-1aeaf1eba7c7" />
 
 4. **Testing the Circuit:**
    - Apply different values of input A to the circuit and observe the output.
    - Verify that the output matches the expected results of a NOT gate.
 
-   ![alt text](image-17.png)
+   <img width="368" height="181" alt="Screenshot 2026-07-26 at 6 32 28 AM" src="https://github.com/user-attachments/assets/f63e5002-3462-4b76-aec1-0d0e7729d29a" />
+   <img width="386" height="183" alt="Screenshot 2026-07-26 at 6 32 42 AM" src="https://github.com/user-attachments/assets/e38ef61f-aac8-43fd-9fce-ffd5adaf3447" />
+
 
 **Conclusion:**
-In this experiment, we successfully implemented a NOT gate using only NOR gates. By understanding the properties of NOR gates and their ability to create other logic gates, we were able to demonstrate the versatility of digital logic design. This exercise reinforces the concept of universal gates and their applications in digital circuits.
+In this experiment, a NOT gate was successfully implemented using a single NOR gate. The experiment demonstrated that NOR gates can be used to construct other basic logic gates due to their universal nature. This helped strengthen the understanding of universal gates and their importance in digital logic circuit design.
 
 
-## **Experiment 6: Implementation of NOT Gate using NAND Gates**
+## **Task 6: Implementation of NOT Gate using NAND Gates**
 
 **Description:**\
 In this experiment, we will implement a NOT gate using only NAND gates. The NOT gate is a fundamental digital logic gate that outputs the opposite value of its input. The NAND gate, being a universal gate, can be used to create a NOT gate as well.
@@ -221,17 +225,20 @@ In this experiment, we will implement a NOT gate using only NAND gates. The NOT 
 
 3. **Circuit Design:**
    - Connect the input A to both inputs of the NAND gate.
+     
+<img width="358" height="204" alt="Screenshot 2026-07-26 at 6 39 03 AM" src="https://github.com/user-attachments/assets/72d22792-3709-4202-b1de-1801ffde30f9" />
 
-   ![alt text](image-18.png)
 
 4. **Testing the Circuit:**
    - Apply different values of input A to the circuit and observe the output.
    - Verify that the output matches the expected results of a NOT gate.
 
-   ![alt text](image-19.png)
+  <img width="361" height="166" alt="Screenshot 2026-07-26 at 6 39 35 AM" src="https://github.com/user-attachments/assets/2b0ebf70-a6c1-432c-be84-15b2c7dbbe62" />
+<img width="385" height="173" alt="Screenshot 2026-07-26 at 6 39 51 AM" src="https://github.com/user-attachments/assets/011535e8-6f9e-469f-b4db-7215a64547bb" />
+
 
 **Conclusion:**
-In this experiment, we successfully implemented a NOT gate using only NAND gates. By understanding the properties of NAND gates and their ability to create other logic gates, we were able to demonstrate the versatility of digital logic design. This exercise reinforces the concept of universal gates and their applications in digital circuits.
+In this experiment, a NOT gate was successfully implemented using a single NOR gate. The experiment demonstrated that NOR gates can be used to construct other basic logic gates due to their universal nature. This helped strengthen the understanding of universal gates and their importance in digital logic circuit design.
 
 
 ## **Experiment 7: Implementation of Full Adder and testing it.**
@@ -240,7 +247,7 @@ In this experiment, we successfully implemented a NOT gate using only NAND gates
 In this experiment, we will implement a Full Adder circuit using basic logic gates. A Full Adder is a digital circuit that performs the addition of three binary bits: two significant bits and a carry bit. The Full Adder produces a sum and a carry output.
 
 **Procedure:**
-1. **Understanding the Full Adder:**
+1. **Study of the Full Adder:**
    - A Full Adder takes three inputs: A, B, and Cin (carry input). It produces two outputs: Sum and Cout (carry output). The truth table for a Full Adder is as follows:
 
    | Input A | Input B | Cin | Sum | Cout |
@@ -285,10 +292,10 @@ In this experiment, we successfully implemented a Full Adder circuit using basic
 ## **Experiment 8: Implementation of Binary to BCD Converter**
 
 **Description:**\
-In this experiment, we will implement a Binary to BCD (Binary-Coded Decimal) converter using basic logic gates. A Binary to BCD converter is a digital circuit that converts a binary number into its equivalent BCD representation. BCD is a form of decimal representation where each digit of a decimal number is represented by its binary equivalent.
+In this experiment, a Binary-to-BCD converter is implemented using logic gates. The purpose of the circuit is to convert a 4-bit binary number into its equivalent Binary-Coded Decimal (BCD) representation. In BCD, each decimal digit is represented separately using a 4-bit binary code.
 
 **Procedure:**
-1. **Understanding Binary to BCD Conversion:**
+1. **Study of Binary to BCD Conversion:**
    - A Binary to BCD converter takes a binary input and produces a BCD output.
    - For example, the binary number 1010 (which is 10 in decimal) can be represented in BCD as 0001 0000 (1 and 0 in BCD).
    - The truth table for a 4-bit binary input and its corresponding BCD output is as follows:
@@ -319,18 +326,21 @@ In this experiment, we will implement a Binary to BCD (Binary-Coded Decimal) con
 
 3. **Circuit Design:**
    - Connect the binary input bits (B₃, B₂, B₁, B₀) to the Binary to BCD converter circuit.
-   ![alt text](image-27.png)
    - The circuit will produce the corresponding BCD output bits (D₄, D₃, D₂, D₁) based on the input binary number which will be displayed on the BCD to seven-segment display.
-   ![alt text](image-28.png)
+   - 
+<img width="633" height="347" alt="Screenshot 2026-07-26 at 6 46 48 AM" src="https://github.com/user-attachments/assets/df6ed3b4-3890-4235-ab0f-8778d0bcc257" />
+
+   
 4. **Testing the Circuit:**
    - Apply different combinations of binary inputs (B₃, B₂, B₁, B₀) to the circuit and observe the BCD outputs (D₄, D₃, D₂, D₁).
    - Verify that the outputs match the expected results of the Binary to BCD conversion.
-   ![alt text](image-29.png)
-   ![alt text](image-30.png)
-   ![alt text](image-31.png)
+   <img width="619" height="392" alt="Screenshot 2026-07-26 at 6 47 32 AM" src="https://github.com/user-attachments/assets/2f9a5920-8b0e-4d4d-86b6-d52de55905dd" />
+   
+<img width="639" height="378" alt="Screenshot 2026-07-26 at 6 48 01 AM" src="https://github.com/user-attachments/assets/a89cbb85-9e66-477e-88cd-51af12afeba5" />
+
 
 **Conclusion:**
-In this experiment, we successfully implemented a Binary to BCD converter using basic logic gates. By understanding the properties of binary numbers and their corresponding BCD representations, we were able to demonstrate the conversion process. This exercise reinforces the concept of digital number systems and their applications in digital circuits, particularly in systems that require decimal representation of binary numbers, such as digital displays and calculators.
+In this experiment, a Binary-to-BCD converter was successfully implemented and tested. The circuit converted 4-bit binary numbers into their corresponding BCD representations, allowing the binary values to be displayed as decimal digits. This experiment provided a practical understanding of binary-to-BCD conversion and demonstrated its importance in digital systems such as digital displays, calculators, and other electronic devices that require decimal number representation.
 
 
 ## <h1 align='center'>  End of Lab 1 Report  </h1>
