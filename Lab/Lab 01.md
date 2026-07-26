@@ -25,21 +25,21 @@ In this experiment, an OR gate will be constructed using only NOR gates. An OR g
 3. **Circuit Design:**
    - Connect the inputs A and B to the first NOR gate.
      
-   <img width="453" height="306" alt="Screenshot 2026-07-26 at 6 03 56 AM" src="https://github.com/user-attachments/assets/4ece9f54-e515-4bb8-85ef-0d3824a5b914" />
+<img width="453" height="306" alt="Screenshot 2026-07-26 at 6 03 56 AM" src="https://github.com/user-attachments/assets/4ece9f54-e515-4bb8-85ef-0d3824a5b914" />
    
    - Connect the output of the first NOR gate to both inputs of the second NOR gate to invert the output.
      
-   <img width="681" height="321" alt="Screenshot 2026-07-26 at 6 04 27 AM" src="https://github.com/user-attachments/assets/e7810cbf-b2c5-41be-a158-82243cf64b42" />
+<img width="681" height="321" alt="Screenshot 2026-07-26 at 6 04 27 AM" src="https://github.com/user-attachments/assets/e7810cbf-b2c5-41be-a158-82243cf64b42" />
 
 
 4. **Testing the Circuit:**
    - Apply different combinations of inputs (A and B) to the circuit and observe the output.
    - Verify that the output matches the expected results of an OR gate.
    
-   <img width="633" height="241" alt="Screenshot 2026-07-26 at 6 04 57 AM" src="https://github.com/user-attachments/assets/1c8212ea-3df1-4fe8-8466-fe7e978fcb30" />
+<img width="633" height="241" alt="Screenshot 2026-07-26 at 6 04 57 AM" src="https://github.com/user-attachments/assets/1c8212ea-3df1-4fe8-8466-fe7e978fcb30" />
 
 
-   <img width="650" height="239" alt="Screenshot 2026-07-26 at 6 05 18 AM" src="https://github.com/user-attachments/assets/1cbd7879-a448-45df-aa88-f22f5171d041" />
+<img width="650" height="239" alt="Screenshot 2026-07-26 at 6 05 18 AM" src="https://github.com/user-attachments/assets/1cbd7879-a448-45df-aa88-f22f5171d041" />
 
 
 **Conclusion:**
@@ -76,9 +76,9 @@ In this experiment, an OR gate is constructed using only NAND gates. NAND is a u
    - Apply different combinations of inputs (A and B) to the circuit and observe the output.
    - Verify that the output matches the expected results of an OR gate.
 
-   <img width="612" height="322" alt="Screenshot 2026-07-26 at 6 14 05 AM" src="https://github.com/user-attachments/assets/40eaee9e-2249-4717-9872-ddda5a8b2d1a" />
+<img width="612" height="322" alt="Screenshot 2026-07-26 at 6 14 05 AM" src="https://github.com/user-attachments/assets/40eaee9e-2249-4717-9872-ddda5a8b2d1a" />
    
-   <img width="607" height="319" alt="Screenshot 2026-07-26 at 6 14 48 AM" src="https://github.com/user-attachments/assets/455252fd-ecb4-4adc-bafa-54785181468e" />
+<img width="607" height="319" alt="Screenshot 2026-07-26 at 6 14 48 AM" src="https://github.com/user-attachments/assets/455252fd-ecb4-4adc-bafa-54785181468e" />
 
 
 
@@ -110,7 +110,7 @@ In this experiment, an AND gate is constructed using only NOR gates. An AND gate
    - Connect the inputs A and B to the first two NOR gates to invert them.
    - Connect the outputs of the first two NOR gates to the inputs of the third NOR gate to get the final output.
 
-    <img width="597" height="276" alt="Screenshot 2026-07-26 at 6 20 43 AM" src="https://github.com/user-attachments/assets/ffbcc180-da0c-4102-8456-191c51763886" />
+<img width="597" height="276" alt="Screenshot 2026-07-26 at 6 20 43 AM" src="https://github.com/user-attachments/assets/ffbcc180-da0c-4102-8456-191c51763886" />
 
 
 4. **Testing the Circuit:**
@@ -152,15 +152,15 @@ In this experiment, an AND gate is constructed using only NAND gates. Since NAND
    - Connect the inputs A and B to the first NAND gate.
    - Connect the output of the first NAND gate to both inputs of the second NAND gate to invert the output.
   
-   <img width="596" height="214" alt="Screenshot 2026-07-26 at 6 25 48 AM" src="https://github.com/user-attachments/assets/2612cb4b-732d-484f-b4fe-5d9b8792a349" />
+<img width="596" height="214" alt="Screenshot 2026-07-26 at 6 25 48 AM" src="https://github.com/user-attachments/assets/2612cb4b-732d-484f-b4fe-5d9b8792a349" />
 
 
 4. **Testing the Circuit:**
    - Apply different combinations of inputs (A and B) to the circuit and observe the output.
    - Verify that the output matches the expected results of an AND gate.
 
-   <img width="569" height="215" alt="Screenshot 2026-07-26 at 6 26 14 AM" src="https://github.com/user-attachments/assets/c1af9f5c-a6b6-466b-875b-f8213e77d348" />
-   <img width="591" height="281" alt="Screenshot 2026-07-26 at 6 26 37 AM" src="https://github.com/user-attachments/assets/b3c5f94a-bc74-490f-afd8-84938f97c207" />
+<img width="569" height="215" alt="Screenshot 2026-07-26 at 6 26 14 AM" src="https://github.com/user-attachments/assets/c1af9f5c-a6b6-466b-875b-f8213e77d348" />
+<img width="591" height="281" alt="Screenshot 2026-07-26 at 6 26 37 AM" src="https://github.com/user-attachments/assets/b3c5f94a-bc74-490f-afd8-84938f97c207" />
 
 
 **Conclusion:**
@@ -190,14 +190,14 @@ In this experiment, a NOT gate is implemented using only a NOR gate. A NOT gate,
 3. **Circuit Design:**
    - Connect the input A to both inputs of the NOR gate.
 
-  <img width="364" height="184" alt="Screenshot 2026-07-26 at 6 31 45 AM" src="https://github.com/user-attachments/assets/e7f46649-317c-4293-ae40-1aeaf1eba7c7" />
+<img width="364" height="184" alt="Screenshot 2026-07-26 at 6 31 45 AM" src="https://github.com/user-attachments/assets/e7f46649-317c-4293-ae40-1aeaf1eba7c7" />
 
 4. **Testing the Circuit:**
    - Apply different values of input A to the circuit and observe the output.
    - Verify that the output matches the expected results of a NOT gate.
 
-   <img width="368" height="181" alt="Screenshot 2026-07-26 at 6 32 28 AM" src="https://github.com/user-attachments/assets/f63e5002-3462-4b76-aec1-0d0e7729d29a" />
-   <img width="386" height="183" alt="Screenshot 2026-07-26 at 6 32 42 AM" src="https://github.com/user-attachments/assets/e38ef61f-aac8-43fd-9fce-ffd5adaf3447" />
+<img width="368" height="181" alt="Screenshot 2026-07-26 at 6 32 28 AM" src="https://github.com/user-attachments/assets/f63e5002-3462-4b76-aec1-0d0e7729d29a" />
+<img width="386" height="183" alt="Screenshot 2026-07-26 at 6 32 42 AM" src="https://github.com/user-attachments/assets/e38ef61f-aac8-43fd-9fce-ffd5adaf3447" />
 
 
 **Conclusion:**
@@ -233,7 +233,7 @@ In this experiment, we will implement a NOT gate using only NAND gates. The NOT 
    - Apply different values of input A to the circuit and observe the output.
    - Verify that the output matches the expected results of a NOT gate.
 
-  <img width="361" height="166" alt="Screenshot 2026-07-26 at 6 39 35 AM" src="https://github.com/user-attachments/assets/2b0ebf70-a6c1-432c-be84-15b2c7dbbe62" />
+<img width="361" height="166" alt="Screenshot 2026-07-26 at 6 39 35 AM" src="https://github.com/user-attachments/assets/2b0ebf70-a6c1-432c-be84-15b2c7dbbe62" />
 <img width="385" height="173" alt="Screenshot 2026-07-26 at 6 39 51 AM" src="https://github.com/user-attachments/assets/011535e8-6f9e-469f-b4db-7215a64547bb" />
 
 
@@ -269,21 +269,16 @@ In this experiment, we will implement a Full Adder circuit using basic logic gat
 
 3. **Circuit Design:**
    - Connect the inputs A and B to the first Half Adder.
-   ![alt text](image-20.png)
    - Connect the sum output (S1) from the first Half Adder and the carry input (Cin) to the second Half Adder.
-   ![alt text](image-21.png)
    - Connect the carry outputs (C1 and C2) from both Half Adders to an OR gate to produce the final carry output (Cout).
-   ![alt text](image-22.png)
+<img width="871" height="555" alt="Screenshot 2026-07-26 at 6 55 06 AM" src="https://github.com/user-attachments/assets/cc68391e-1916-4fcb-a6fe-c186559cff80" />
+
 
 4. **Testing the Circuit:**
    - Apply different combinations of inputs (A, B, and Cin) to the circuit and observe the outputs (Sum and Cout).
    - Verify that the outputs match the expected results of a Full Adder.
-   ![alt text](image-23.png)
-   ![alt text](image-24.png)
-   ![alt text](image-25.png)
-   For 8 bit the main full adder shows 10 in s and 0 in carry out. If we think about 1 bit the sum is 0 and carry out is 1 which is correct according to the circuit we have designed.
-   ![alt text](image-26.png)
-   Same as before for 8 bit the main full adder shows 11 in s and 0 in carry out. If we think about 1 bit the sum is 1 and carry out is 1 which is correct according to the circuit we have designed.
+<img width="1032" height="545" alt="Screenshot 2026-07-26 at 6 56 49 AM" src="https://github.com/user-attachments/assets/2815ae14-ddf0-4747-abe4-589defcff754" />
+
 
 **Conclusion:**
 In this experiment, we successfully implemented a Full Adder circuit using basic logic gates. By understanding the properties of Half Adders and their combination to form a Full Adder, we were able to demonstrate the addition of binary numbers. This exercise reinforces the concept of digital arithmetic and its applications in digital circuits. The Full Adder is a crucial component in the design of arithmetic logic units (ALUs) and other digital systems that require binary addition.
@@ -334,7 +329,7 @@ In this experiment, a Binary-to-BCD converter is implemented using logic gates. 
 4. **Testing the Circuit:**
    - Apply different combinations of binary inputs (B₃, B₂, B₁, B₀) to the circuit and observe the BCD outputs (D₄, D₃, D₂, D₁).
    - Verify that the outputs match the expected results of the Binary to BCD conversion.
-   <img width="619" height="392" alt="Screenshot 2026-07-26 at 6 47 32 AM" src="https://github.com/user-attachments/assets/2f9a5920-8b0e-4d4d-86b6-d52de55905dd" />
+<img width="619" height="392" alt="Screenshot 2026-07-26 at 6 47 32 AM" src="https://github.com/user-attachments/assets/2f9a5920-8b0e-4d4d-86b6-d52de55905dd" />
    
 <img width="639" height="378" alt="Screenshot 2026-07-26 at 6 48 01 AM" src="https://github.com/user-attachments/assets/a89cbb85-9e66-477e-88cd-51af12afeba5" />
 
