@@ -1,4 +1,4 @@
-## **Lab 1: Introduction of Basic Gates **
+# Lab 1: Introduction of Basic Gates 
 ## **Task 1: Implementation of OR Gate using NOR Gates**
 
 **Introduction:**\
