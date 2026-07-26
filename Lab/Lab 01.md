@@ -1,7 +1,7 @@
 ## **Lab 1: Introduction Basic Gates **
-## **Experiment 1: Implementation of OR Gate using NOR Gates**
+## **Task 1: Implementation of OR Gate using NOR Gates**
 
-**Description:**\
+**Introduction:**\
 In this experiment, an OR gate will be constructed using only NOR gates. An OR gate produces a HIGH output (1) if at least one of its inputs is HIGH (1). Since the NOR gate is a universal logic gate, it can be used to implement other basic logic gates, including the OR gate.
 
 **Procedure:**
@@ -41,17 +41,16 @@ In this experiment, an OR gate will be constructed using only NOR gates. An OR g
 
 
 **Conclusion:**
-In this experiment, we successfully implemented an OR gate using only NOR gates. By understanding the properties of NOR gates and their ability to create other logic gates, we were able to demonstrate the versatility of digital logic design. This exercise reinforces the concept of universal gates and their applications in digital circuits.
+In this experiment, an OR gate was successfully constructed using only NOR gates. The experiment demonstrated that NOR gates, being universal gates, can be used to implement other basic logic gates. This experiment helped reinforce the concept of universal gates and their importance in digital logic circuit design.
 
+## **Task 2: Implementation of an OR Gate using NAND Gates**
 
-## **Experiment 2: Implementation of OR Gate using NAND Gates**
-
-**Description:**\
-In this experiment, we will implement an OR gate using only NAND gates. The NAND gate is another universal gate that can be used to create any other logic gate, including the OR gate.
+**Introduction::**\
+In this experiment, an OR gate is constructed using only NAND gates. NAND is a universal logic gate, meaning that it can be used to implement all other basic logic gates, including the OR gate.
 
 **Procedure:**
-1. **Understanding the NAND Gate:**
-   - A NAND gate is a combination of an AND gate followed by a NOT gate. It outputs false (0) only when all its inputs are true (1).
+1. **Study of the NAND Gate:**
+   -A NAND gate is formed by combining an AND gate with a NOT gate. Its output is LOW (0) only when all of its inputs are HIGH (1).
    - The truth table for a 2-input NAND gate is as follows:
    
    | Input A | Input B | Output (A NAND B) |
@@ -67,22 +66,21 @@ In this experiment, we will implement an OR gate using only NAND gates. The NAND
    - This means that we can first use two NAND gates to invert the inputs A and B, and then use a third NAND gate to combine the inverted inputs.
 3. **Circuit Design:**
    - Connect the inputs A and B to the first two NAND gates to invert them.
-   ![alt text](image-4.png)
+   - Connect the outputs of the first two NAND gates to the inputs of the third NAND gate to get the final output.
+<img width="625" height="317" alt="Screenshot 2026-07-26 at 6 13 32 AM" src="https://github.com/user-attachments/assets/0bcde91b-e9ef-4931-87cc-44e041b62ab8" />
 
-    - Connect the outputs of the first two NAND gates to the inputs of the third NAND gate to get the final output.
-    ![alt text](image-5.png)
 
 4. **Testing the Circuit:**
    - Apply different combinations of inputs (A and B) to the circuit and observe the output.
    - Verify that the output matches the expected results of an OR gate.
 
-   ![alt text](image-6.png)
-   ![alt text](image-7.png)
+   <img width="612" height="322" alt="Screenshot 2026-07-26 at 6 14 05 AM" src="https://github.com/user-attachments/assets/40eaee9e-2249-4717-9872-ddda5a8b2d1a" />
+   <img width="607" height="319" alt="Screenshot 2026-07-26 at 6 14 48 AM" src="https://github.com/user-attachments/assets/455252fd-ecb4-4adc-bafa-54785181468e" />
+
 
 
 **Conclusion:**
-   In this experiment, we successfully implemented an OR gate using only NAND gates. By understanding the properties of NAND gates and their ability to create other logic gates, we were able to demonstrate the versatility of digital logic design. This exercise reinforces the concept of universal gates and their applications in digital circuits.
-
+   In this experiment, an OR gate was successfully implemented using three NAND gates. The experiment demonstrated the practical application of De Morgan's theorem and verified that NAND gates can be used to construct other logic gates. This experiment also strengthened the understanding of universal gates and their significance in digital logic circuit design.
 
 ## **Experiment 3: Implementation of AND Gate using NOR Gates**
 
