@@ -1,13 +1,13 @@
-## **Lab 1: Introduction to Digital Logic**
+## **Lab 1: Introduction Basic Gates **
 ## **Experiment 1: Implementation of OR Gate using NOR Gates**
 
 **Description:**\
-In this experiment, we will implement an OR gate using only NOR gates. The OR gate is a fundamental digital logic gate that outputs true (1) when at least one of its inputs is true (1). The NOR gate, on the other hand, is a universal gate that can be used to create any other logic gate, including the OR gate.
+In this experiment, an OR gate will be constructed using only NOR gates. An OR gate produces a HIGH output (1) if at least one of its inputs is HIGH (1). Since the NOR gate is a universal logic gate, it can be used to implement other basic logic gates, including the OR gate.
 
 **Procedure:**
-1. **Understanding the NOR Gate:**
-   - A NOR gate is a combination of an OR gate followed by a NOT gate. It outputs true (0) only when all its inputs are false (0).
-   - The truth table for a 2-input NOR gate is as follows:
+1. **Study of the NOR Gate:**
+   - A NOR gate is formed by combining an OR gate with a NOT gate. Its output is HIGH (1) only when all of its inputs are LOW (0).
+   - The truth table of a 2-input NOR gate is given below:
 
    | Input A | Input B | Output (A NOR B) |
    |---------|---------|------------------|
@@ -16,7 +16,7 @@ In this experiment, we will implement an OR gate using only NOR gates. The OR ga
    |    1    |    0    |         0        |
    |    1    |    1    |         0        |
 
-2. **Implementing the OR Gate using NOR Gates:**
+2. **Construction of an OR Gate Using NOR Gates:**
    - To implement an OR gate using NOR gates, we can use the following logic:
    - The OR gate can be expressed in terms of NOR gates as follows:
    - OR(A, B) = NOT(NOR(A, B))
@@ -24,18 +24,20 @@ In this experiment, we will implement an OR gate using only NOR gates. The OR ga
 
 3. **Circuit Design:**
    - Connect the inputs A and B to the first NOR gate.
-   ![alt text](image.png)
-
+   <img width="453" height="306" alt="Screenshot 2026-07-26 at 6 03 56 AM" src="https://github.com/user-attachments/assets/4ece9f54-e515-4bb8-85ef-0d3824a5b914" />
+   
    - Connect the output of the first NOR gate to both inputs of the second NOR gate to invert the output.
-   ![alt text](image-1.png)
+   <img width="681" height="321" alt="Screenshot 2026-07-26 at 6 04 27 AM" src="https://github.com/user-attachments/assets/e7810cbf-b2c5-41be-a158-82243cf64b42" />
+
 
 4. **Testing the Circuit:**
    - Apply different combinations of inputs (A and B) to the circuit and observe the output.
    - Verify that the output matches the expected results of an OR gate.
    
-   ![alt text](image-2.png)
+   <img width="633" height="241" alt="Screenshot 2026-07-26 at 6 04 57 AM" src="https://github.com/user-attachments/assets/1c8212ea-3df1-4fe8-8466-fe7e978fcb30" />
 
-   ![alt text](image-3.png)
+
+   <img width="650" height="239" alt="Screenshot 2026-07-26 at 6 05 18 AM" src="https://github.com/user-attachments/assets/1cbd7879-a448-45df-aa88-f22f5171d041" />
 
 
 **Conclusion:**
