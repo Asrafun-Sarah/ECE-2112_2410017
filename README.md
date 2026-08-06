@@ -50,6 +50,6 @@ _**Heaven’s Light is Our Guide**_
 | Lab No. | Title | Link |
 | :---: | :---: | :---: | 
 | 01 | Introduction of Basic Gates | **[PDF](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab_01%20(1).pdf)**  \| **[Markdown](https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab%2001.md)**  |
-| 02 | Class and Object | [Lab 01](https://github.com/Asrafun-Sarah/ECE-1204_2410017/blob/main/Lab/Lab%2001.md)
+| 02 | Boolean Expression Simplification | [PDF]()
   
 </div> 
