@@ -45,7 +45,6 @@ _**Heaven’s Light is Our Guide**_
 </div>
 
 <div align="center">
-  https://github.com/Asrafun-Sarah/ECE-2112_2410017/blob/main/Lab/Lab%2002.pdf
 ## INDEX:
 | Lab No. | Title | Link |
 | :---: | :---: | :---: |
